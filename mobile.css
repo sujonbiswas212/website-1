@@ -1,48 +1,208 @@
-@media (max-device-width:768px){
+@media (max-device-width:480px){
      .head{
-
-          display:none;
+          display: none;
+    
      }
-     
-}
 
-@media (max-device-width:768px){
      .navBar{
-          background-color: rgb(255, 255, 255);
-          width: 100%;
-          height: 60px;
-          border-bottom: 1px solid black;
+          border: none;
+          background-color: #008000;
+          height:max-content;
+          margin-top: -20px;
+          width:1400px;
+          padding: 10px;
+          
           .header{
-           display: flex;
-           justify-content: space-evenly;
-           align-items: center;
-      
-           .logo{
-                margin-top: 20px;
-           }
-      
+               display: block;
+               .logo{
+                    text-align: center;
+                    align-items: center;
+               }
+               .nav{
+                   & ul{
+                    display: block;
+                    text-align: center;
+                    align-items: center;
+                   }
+               }
+               .icon{
+                    text-align: center;
+                    align-items: center;
+               }
+          }
 
-          .nav{
-           & ul{
-                display:block;
-                list-style-type: none;
-                align-items: center;
-                margin-top: 20px;
-      
-                & li{
-                     & a{
-                          text-decoration: none;
-                          padding: 5px 15px;
-                          font-size: 18px;
-                     }
-                }
-           }
+     }
+     /* hero section */
+
+     .hero{
+          .hero-about{
+               width: 100%;
+               display: block;
+               
+               .hero-text{
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    gap: 10px;
+                    padding: 10px;
+                    margin-left: 100%;
+               }
+
+               .hero-img{
+                    width: 100%;
+                    background-color: cadetblue;
+                    margin-left: 50%;
+
+               }
           }
-      
-          .icon{
-           margin-top: 20px;
-           color: red;
+
+     }
+
+     /* hero1 section */
+
+     .hero1about{
+          .heroabout1{
+               display: block;
+               .her2{
+                    display: block;
+               }
           }
-      }
-      }
+
+
+     }
+
+     /* shop section */
+     .shop{
+          .shop1{
+               display: grid;
+               grid-template-columns: repeat(2,1fr);
+               gap: 30px;
+               .card{
+                    padding: 70px 120px;
+                    margin-left: 70px;
+
+                    & img{
+                         width: 100%;
+                         height: auto;
+                    }
+               }
+
+          }
+
+          .button{
+               padding: 30px 70px;
+               margin-left: 140%;
+               font-size: 20px;
+          }
+     }
+
+     /* catagory section */
+
+     .catagory{
+          .catagory2{
+              display: grid;
+              grid-template-columns: repeat(3,1fr);
+              padding-right: 20px;
+              & img{
+               width: 400px ;
+               height: 300px;
+              }
+              .camara{
+               width: 400px;
+               height: 300px;
+              }
+
+          }
+
+     }
+
+     /* best selling */
+
+     .catagoryy{
+          .catagory1y{
+               display: block;
+               margin-left: 200%;
+          }
+
+          .catagory2y{
+               display: grid;
+               grid-template-columns: repeat(3,1fr);
+               gap: 50px;
+               margin-top: 100px;
+
+               & img{
+                    width: 360px;
+                    height: auto;
+               }
+          }
+
+     }
+
+     /* enhance */
+
+     .enhance{
+
+          width: 1300px;
+          padding: 10px 10px;
+          margin-left: 40px;
+
+          .enhance1{
+               padding: 20px 150px;
+
+
+
+          }
+
+     }
+
+     /* our products */
+
+     .ourshop{
+          .ourproduct{
+               display: grid;
+               grid-template-columns: repeat(2,1fr); 
+               gap: 30px;
+
+               .ourpro1{
+                    margin-left: 150px;
+                    .pro1{
+                         width: 400px;
+                        height: auto;
+
+                         & img{
+                              width: 250px;
+                              margin-left: 70px;
+                              
+                         }
+
+                         & div{
+                              font-size: 50px;
+                         }
+                    }
+               }
+
+          }
+
+     }
+
+     /* delivary section */
+
+     .delivared{
+          .del1{
+               margin-left: 300px;
+               font-size: 20px;
+          }
+     }
+
+     /* footer section */
+
+     .footer{
+          width: 1400px;
+          .footer-del1{
+               display: grid;
+               grid-template-columns: repeat(2,1fr);
+          }
+     }
+
+
+     
 }

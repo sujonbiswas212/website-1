@@ -550,3 +550,21 @@
           }
      }
 }
+
+
+/* footer section */
+
+.footer{
+     padding: 50px 100px;
+     background-color: rgb(42, 30, 11);
+
+     .footer-del1{
+          display: grid;
+          grid-template-columns: repeat(5 , 1fr);
+          gap: 1.6rem;
+          color: aliceblue;
+          padding-bottom: 0.7rem;
+     }
+
+
+}
